@@ -11,6 +11,11 @@ https://cloud.google.com/blog/products/identity-security/how-to-authenticate-ser
 Reference: https://github.com/googleapis/python-aiplatform/issues/2557#issuecomment-1709284744
 
 When you have a service account from a different project, you must set the `quota_project_id` to the project where the Vertex API is enabled
+
+The service account must be granted in IAM these roles:
+* Vertex AI User
+* Service Usage Consumer
+
 ```
 creds, _ = google.auth.load_credentials_from_file(
     filename='./creds/<service account key file>.json', 
