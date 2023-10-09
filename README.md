@@ -1,4 +1,4 @@
-# Authenticating with Service Account Keys
+# Authenticating Vertex AI with Service Account Keys
 
 **Disclaimer:** *Using service account keys should be viewed as a last resort*
 
